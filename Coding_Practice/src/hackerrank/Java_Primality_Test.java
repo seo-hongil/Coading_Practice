@@ -36,7 +36,7 @@ public class Java_Primality_Test {
 		        BigInteger bi = new BigInteger(n); // 수가 큰값일 경우에도 분석해서 오류가 나기 때문에 BigInteger 클래스로 사용
 		        
 		        if(bi.isProbablePrime(1)){		// 소수판변을 위한 BigInteger의 isProbablePrime를 사용 
-		            System.out.println("prime");
+		            System.out.println("prime"); // 확실성 값(certainty)을 1로 전달하면 숫자가 소수임을 100% 확신하는 경우 출력을 제공
 		        }else{
 		            System.out.println("not prime");
 		        }
