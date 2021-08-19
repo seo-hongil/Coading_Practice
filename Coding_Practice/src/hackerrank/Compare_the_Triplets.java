@@ -10,11 +10,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Compare_the_Triplets {
-	/* Hackerrank Compare the Triplets 臾몄젣 
-	     �몢 諛곗뿴�쓣 二쇨퀬 �닽�옄瑜� 鍮꾧탳�빐�꽌 �뜑 �겙 �닔�뿉 1�젏�뵫 利앷�
+	/* Hackerrank Compare the Triplets 문제
+	     두 배열에 index를 비교하고 큰 값에 1씩 증가(같으면 0)
 	 ex) 5 6 7
 		 3 6 10
-		 異쒕젰 :  1 1
+		 결과 :  1 1
+		 
 	*/
 	
 	static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {

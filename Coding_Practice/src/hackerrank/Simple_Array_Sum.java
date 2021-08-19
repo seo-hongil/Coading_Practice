@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Simple_Array_Sum {
-	/* Hackerrank Simple Array Sum 臾몄젣 
-	 scanner濡� �닽�옄瑜� �븯�굹 �엯�젰諛쏆쑝硫� 洹� �닽�옄瑜� �떎 �뜑�븯�뒗 臾몄젣
+	/* Hackerrank Simple Array Sum 문제 
+	 scanner로 받은 인자를 모두 더해서 출력
 	*/
 	
 	static int simpleArraySum(int[] ar) {
