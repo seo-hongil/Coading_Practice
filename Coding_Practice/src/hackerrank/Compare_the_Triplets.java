@@ -10,11 +10,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Compare_the_Triplets {
-	/* Hackerrank Compare the Triplets 문제 
-	     두 배열을 주고 숫자를 비교해서 더 큰 수에 1점씩 증가
+	/* Hackerrank Compare the Triplets 臾몄젣 
+	     �몢 諛곗뿴�쓣 二쇨퀬 �닽�옄瑜� 鍮꾧탳�빐�꽌 �뜑 �겙 �닔�뿉 1�젏�뵫 利앷�
 	 ex) 5 6 7
 		 3 6 10
-		 출력 :  1 1
+		 異쒕젰 :  1 1
 	*/
 	
 	static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {

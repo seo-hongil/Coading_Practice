@@ -3,8 +3,8 @@ package hackerrank;
 import java.util.Scanner;
 
 public class Solve_Me_First {
-		/* Hackerrank Solve Me First 문제 
-		   a와 b에 값을 입력했을 때 그 둘의 합을 구하시오.
+		/* Hackerrank Solve Me First 臾몄젣 
+		   a�� b�뿉 媛믪쓣 �엯�젰�뻽�쓣 �븣 洹� �몮�쓽 �빀�쓣 援ы븯�떆�삤.
 		*/
 		
 		 static int solveMeFirst(int a, int b) {
