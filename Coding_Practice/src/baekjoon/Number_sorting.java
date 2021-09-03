@@ -16,7 +16,7 @@ public class Number_sorting {
 	         arr[i] =  Integer.parseInt(br.readLine());
 	      }
 	                
-	        for(int i = 0; i<arr.length-1; i++){
+	        for(int i = 0; i<arr.length-1; i++){ //기본적인 버블정렬 사용
 	            for(int j=i+1; j<arr.length; j++){
 	                if(arr[i]>arr[j]){
 	                    int c = arr[i];

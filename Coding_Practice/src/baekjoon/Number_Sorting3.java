@@ -14,7 +14,7 @@ public class Number_Sorting3 {
 	        int n = Integer.parseInt(br.readLine());
 	        int [] arr = new int[10001];
 	        
-	        for(int i =0; i<n; i++){
+	        for(int i =0; i<n; i++){ //counting sort를 사용하는데 boolean이 아닌 int타입으로 배열 생성.
 	            arr[Integer.parseInt(br.readLine())]++;    
 	        }
 	        

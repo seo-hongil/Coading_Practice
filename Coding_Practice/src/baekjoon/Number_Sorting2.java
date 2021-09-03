@@ -14,7 +14,7 @@ public class Number_Sorting2 {
 	        int n = Integer.parseInt(br.readLine());
 	        boolean [] arr = new boolean[2000001];
 	        
-	        for(int i = 0; i<n; i++){
+	        for(int i = 0; i<n; i++){ //카운팅정렬을 사용하기 위해 boolean 타입으로 받아 index를 증가.
 	            arr[Integer.parseInt(br.readLine())+1000000] = true;  
 	        }
 	        StringBuilder sb = new StringBuilder();

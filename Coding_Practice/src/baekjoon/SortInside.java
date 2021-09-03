@@ -10,17 +10,18 @@ import java.io.InputStreamReader;
 
 public class SortInside {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        
+    	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int c = n;
         int [] arr = new int[10];
         
-        while(c>0){
+        while(c>0){ //입력받은 숫자에서 10식 나눈 나머지를 counting sort를 이용해서 정렬 
             arr[c%10]++;
             c /= 10;
         }
            
-        for(int i=9; i>=0; i--){
+        for(int i=9; i>=0; i--){ //그 후 끝에서부터 출력
             while(arr[i]>0){
                 System.out.print(i);
                 arr[i]--;
